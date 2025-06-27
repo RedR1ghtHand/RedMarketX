@@ -53,4 +53,3 @@ def run():
                     logger.debug(f"! '{itype_name}' already linked to material '{material.name}'")
             except ItemType.DoesNotExist:
                 logger.error(f" [!] ItemType '{itype_name}' does not exist. Please check your item types!")
-

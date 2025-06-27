@@ -55,4 +55,3 @@ def run():
                     logger.debug(f"! '{itype_name}' already linked to enchantment '{enchantment.name}'")
             except ItemType.DoesNotExist:
                 logger.error(f" [!] ItemType '{itype_name}' does not exist. Please check your item types!")
-

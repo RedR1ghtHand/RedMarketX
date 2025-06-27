@@ -40,5 +40,3 @@ def run():
             logger.debug(f" [+] Created category: {name}")
         else:
             logger.debug(f"! Category already exists: {name}")
-
-
