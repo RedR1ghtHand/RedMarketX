@@ -7,7 +7,7 @@
     {"name": "carrot on a stick", "description": "A tool for controlling pigs."},
     {"name": "fishing rod", "description": "A tool for fishing."},
     {"name": "warped fungus on a stick", "description": "A tool for controlling."},
-    {"name": "flind and steel", "description": "A tool used for making fire"},
+    {"name": "flint and steel", "description": "A tool used for making fire"},
     {"name": "shears", "description": "A tools required to obtain some organic blocks"},
     {"name": "shield", "description": "A tool used for protecting the player against attacks."}
   ],

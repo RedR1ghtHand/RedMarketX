@@ -1,7 +1,7 @@
 import json
 import logging
 
-from item.models import Category
+from api.item.models import Category
 
 logger = logging.getLogger('script')
 
