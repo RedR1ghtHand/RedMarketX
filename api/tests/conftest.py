@@ -1,5 +1,5 @@
 import pytest
-from account.models import User
+from api.account.models import User
 from rest_framework.test import APIClient
 
 

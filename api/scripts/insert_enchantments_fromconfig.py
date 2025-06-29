@@ -1,7 +1,7 @@
 import json
 import logging
 
-from item.models import Enchantment, ItemType
+from api.item.models import Enchantment, ItemType
 
 
 logger = logging.getLogger('script')

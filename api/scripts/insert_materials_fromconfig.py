@@ -1,6 +1,6 @@
 import json
 import logging
-from item.models import Material, ItemType
+from api.item.models import Material, ItemType
 
 
 logger = logging.getLogger('script')

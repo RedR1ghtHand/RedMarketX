@@ -19,7 +19,8 @@ env = environ.Env(
 )
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
+PROJECT_ROOT = BASE_DIR.parent
+environ.Env.read_env(os.path.join(PROJECT_ROOT, '.env'))
 
 
 # Quick-start development settings - unsuitable for production
@@ -45,6 +46,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'account',
     'item',
+    'order',
 ]
 
 MIDDLEWARE = [
